@@ -14,9 +14,9 @@
  * --if everything executes well, return the value of the subtraction of the parameters will return 
  */
 namespace initial{
-    template<typename HELLO>
-    HELLO subtract(HELLO firstNumber, HELLO secondNumber) {
-
+    template<typename Hello>
+    Hello subtract(Hello firstNumber, Hello secondNumber) {
         return firstNumber - secondNumber;
     }
+    
 }
