@@ -16,6 +16,18 @@
  */
 namespace initial
 {
+    /**
+     * @brief 
+     * the function takes two parameters: the firstNumber and the secondNumber and returns the value of the subtraction of the parameters.
+     * @tparam Hello 
+     * this is a generic placeholder for the datatype
+     * @param FirstNumber 
+     * this is a symbol that points to the address of the FirstNumber.
+     * @param SecondNumber 
+     * this is a symbol that points to the address of the SecondNumber.
+     * @return Hello 
+     * --if the function executes successfully it will return the value of the subtraction of the parameters. Otherwise it will return -1
+     */
     template<typename Hello>
     Hello subtract(Hello FirstNumber, Hello SecondNumber) 
     {
@@ -35,6 +47,6 @@ Sum_of_Money HowMuch(Sum_of_Money KareemAcct,Sum_of_Money JacobAcct)
     {
         std::cout<<"the account balance is too small to be configured for subscription,please make sure that you have more than one thousand naira in your account before proceeding"<<std::endl;
     }
-    
+
     return 0;
 }

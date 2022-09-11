@@ -1,5 +1,6 @@
 #include "C:\Users\Ikyese Dominic\Documents\my software projects\lib\add.hpp"
 #include "C:\Users\Ikyese Dominic\Documents\my software projects\lib\subtract.hpp"
+#include <vector>
 
 
 /**
@@ -19,7 +20,11 @@ int main(int argc, char *argv[])
 	std::cout<<"Hello my brothers and sisters,how una de do for this place"<<std::endl;
 	std::cout << "when the storm calms and the dust settles,only the real gon be here to talk the talk.if you know what i mean,man." << std::endl;
 
+	std::cout<<initial::subtract(233,443)<<std::endl;
+
 	std::cout<<HowMuch(233,55)<<std::endl;
+
+	printf("")
 	
 	return 0;
 }
