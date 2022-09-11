@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <algorithm>
 
 /**
  * @brief 
@@ -20,5 +21,20 @@ namespace initial
     {
         return FirstNumber - SecondNumber;
     }
+}
 
+/**
+ * @brief 
+ * the integer datatype has been defined as Sum_of_Money
+ */
+typedef int Sum_of_Money;
+
+Sum_of_Money HowMuch(Sum_of_Money KareemAcct,Sum_of_Money JacobAcct)
+{
+    if(KareemAcct==100)
+    {
+        std::cout<<"the account balance is too small to be configured for subscription,please make sure that you have more than one thousand naira in your account before proceeding"<<std::endl;
+    }
+    
+    return 0;
 }
