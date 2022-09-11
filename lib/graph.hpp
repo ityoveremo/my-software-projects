@@ -62,6 +62,26 @@ public:
 
     }
 
+    //Destructor
+    ~Graph()
+    {
+       for(int i=0;i<N;i++){
+        delete[] head[i];
+       }
+       delete[] head;
+        
+    }
+
+
+};
+
+//Function to print all neigbouring vertices of a given  vertex
+void printlist(Node* ptr)
+{
+    while(ptr != nullptr)
+    {
+        std::cout<<"->"<<ptr->val;
+    }
 }
 
 #endif /* C6C677F9_460D_4F2B_B272_8500CB3C8AE5 */
